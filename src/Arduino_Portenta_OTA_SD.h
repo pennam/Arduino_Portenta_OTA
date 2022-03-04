@@ -22,6 +22,7 @@
  * INCLUDE
  ******************************************************************************/
 
+#if defined(ARDUINO_PORTENTA_H7_M7)
 #include "Arduino_Portenta_OTA.h"
 
 /******************************************************************************
@@ -50,4 +51,5 @@ private:
 
 };
 
+#endif
 #endif /* ARDUINO_PORTENTA_OTA_SD_H_ */

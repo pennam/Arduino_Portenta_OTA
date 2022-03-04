@@ -22,9 +22,12 @@
  * INCLUDE
  ******************************************************************************/
 
+#include <Arduino.h>
 #include <BlockDevice.h>
 #include <MBRBlockDevice.h>
+#if defined(ARDUINO_PORTENTA_H7_M7)
 #include <SDMMCBlockDevice.h>
+#endif
 
 #include <FATFileSystem.h>
 #include <LittleFileSystem.h>

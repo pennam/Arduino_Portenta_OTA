@@ -19,6 +19,7 @@
    INCLUDE
  ******************************************************************************/
 
+#if defined(ARDUINO_PORTENTA_H7_M7)
 #include "Arduino_Portenta_OTA_SD.h"
 
 #include "BSP.h"
@@ -97,3 +98,4 @@ bool Arduino_Portenta_OTA_SD::open()
 
   return false;
 }
+#endif
